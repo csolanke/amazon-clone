@@ -1,18 +1,18 @@
 import './Home.css';
 import React from 'react'
+import Product from './Product'
 
 function Home() {
     return (
         <div className='home'>
 
            <div className='home__container'>
-            <img className='home__image' src='https://images-na.ssl-images-amazon.com/images/G/01/img18/home/2022/Q1/SSHeaders/HMT_Q42021_desk_ssheader_geometric_1500x550.jpg' alt=''>
+            <img className='home__image' src='https://m.media-amazon.com/images/I/615IKOC-QKL._SX3740_.jpg' alt=''>
             </img>   
            </div>
 
            <div className='home__row'>
-               {/* product1 */}
-               {/* product 2 */}
+               <Product />
            </div>
 
            <div className='home__row'>
