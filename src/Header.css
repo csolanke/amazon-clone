@@ -46,6 +46,7 @@
 
 .header_optionLineOne {
   font-size: 10px;
+  object-fit: contain;
 }
 .header_optionLineTwo {
   font-size: 13px;
