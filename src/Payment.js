@@ -39,6 +39,8 @@ function Payment() {
             getClientSecret();
     },[basket]);
 
+    console.log('THE SECRET IS>>>',clientSecret)
+
     const handleSubmit=(event)=>{
        // do the stripe fancy stuff
          event.preventDefault();

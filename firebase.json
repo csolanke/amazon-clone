@@ -20,5 +20,22 @@
       "npm --prefix \"$RESOURCE_DIR\" run lint"
     ],
     "source": "functions"
+  },
+  "emulators": {
+    "functions": {
+      "port": 7001
+    },
+    "firestore": {
+      "port": 7070
+    },
+    "database": {
+      "port": 7777
+    },
+    "hosting": {
+      "port": 7875
+    },
+    "ui": {
+      "enabled": true
+    }
   }
 }
